@@ -20,7 +20,7 @@ public class Main {
 		int number = scan.nextInt();
 		System.out.println();
 
-		if (number < 0 || number > 0) {
+		if (number < 0 || number > 100) {
 			System.out.println("That's not a valid number. Please enter a number between 1 - 100.");
 			System.out.println();
 
